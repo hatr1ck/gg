@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 const server = app.listen(port, () => {
-  console.log(runningMessage);
+  console.log("runningMessage");
 });
 
 module.exports = server;
